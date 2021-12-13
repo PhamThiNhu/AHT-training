@@ -1,0 +1,1007 @@
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  
+  body {
+      margin: auto;
+      box-sizing: border-box;
+  }
+  
+  .wrapper {
+      width: 100%;
+  }
+  
+  ul,
+  li {
+      list-style: none;
+  }
+  /*==========================HEADER====================*/
+  
+  .blog-top-header {
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      height: 1000px;
+  }
+  
+  .header-panel {
+      display: flex;
+      position: relative;
+      padding: 28px 100px 0 100px;
+  }
+  
+  .header-panel .icon-header-panel {
+      position: absolute;
+      top: 42px;
+      right: 112px;
+      margin: auto;
+      font-size: 22px;
+  }
+  
+  .blog-top-header .header-panel .logo-header-panel {
+      margin-left: 0px;
+  }
+  
+  .form-search {
+      position: relative;
+      border: 1px solid black;
+      border-radius: 25px;
+  }
+  
+  .header-menu .btn-search {
+      position: absolute;
+      right: 0;
+      height: 20px;
+      width: 25px;
+      height: 19px;
+      cursor: pointer;
+      margin: 5px;
+      border-radius: 25px;
+      border: none;
+  }
+  /*=====================menu*/
+  
+  .header-menu {
+      text-align: center;
+      letter-spacing: 1px;
+      display: none;
+      position: fixed;
+      width: 100%;
+      background-color: #12010a;
+      z-index: 1;
+      height: 100px;
+      padding-top: 33px;
+  }
+  
+  .header-menu ul li {
+      display: inline-block;
+      list-style: none;
+      margin: 19px;
+  }
+  
+  .header-menu ul li a {
+      color: #ababab;
+      text-decoration: none;
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: uppercase;
+  }
+  
+  .header-menu ul li a:hover {
+      color: white;
+  }
+  
+  .form-search {
+      position: relative;
+      border: 1px solid black;
+      border-radius: 25px;
+  }
+  
+  .header-menu input {
+      outline: none;
+      text-indent: 10px;
+      border-radius: 25px;
+      height: 30px;
+      border: none;
+  }
+  
+  .header-menu .btn-search {
+      position: absolute;
+      right: 0;
+      height: 20px;
+      width: 25px;
+      height: 19px;
+      cursor: pointer;
+      margin: 5px;
+      border-radius: 25px;
+      border: none;
+  }
+  
+  .header-menu .fas.fa-times {
+      float: right;
+      margin-top: -5%;
+      margin-right: 1%;
+      color: white;
+  }
+  /*=====================menu*/
+  
+  .header-panel .icon-header-panel .fa-shopping-cart {
+      position: relative;
+      margin-right: 46px;
+  }
+  
+  .header-panel .icon-header-panel .number-cart {
+      position: absolute;
+      right: 57px;
+      top: -4px;
+      width: 18px;
+      height: 18px;
+      font-size: 12px;
+      text-align: center;
+      padding-top: 2px;
+      background-color: white;
+      border-radius: 25px;
+  }
+  
+  .slogan {
+      position: absolute;
+      top: 44%;
+      left: 45%;
+      transform: translate(-50%, -50%);
+  }
+  
+  .txt-spring {
+      letter-spacing: 12px;
+      line-height: 100px;
+      margin-left: 23px;
+      margin-top: 33px;
+  }
+  
+  .slogan h4 {
+      /* font-family: 'Cormorant Garamond', serif; */
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 24px;
+  }
+  
+  .slogan .txt {
+      width: 1000px;
+      margin-left: 19px;
+  }
+  
+  .slogan .txt h2 {
+      font-size: 100px;
+      font-weight: 100;
+      font-style: italic;
+      text-transform: uppercase;
+      letter-spacing: 25px;
+      margin: 0 0 0 9px;
+      line-height: 1;
+  }
+  
+  .button {
+      margin-top: 100px;
+      position: absolute;
+      top: 85.8%;
+      left: 21px;
+      padding: 15px 27px 15px 25px;
+      background-color: black;
+  }
+  
+  .button a {
+      color: #ffffff;
+      text-decoration: none;
+      letter-spacing: 2.8px;
+      font-weight: 500;
+      margin-left: 1px;
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 16px;
+  }
+  
+  .social-media {
+      text-align: right;
+      margin-top: 336px;
+      padding-right: 100.5px;
+      list-style-type: none;
+  }
+  
+  .social-media a {
+      font-family: 'Cormorant Garamond', serif;
+      text-decoration: none;
+      font-size: 24px;
+      line-height: 1.65;
+      letter-spacing: 2.2px;
+      color: white;
+  }
+  
+  .social-media hr {
+      width: 80px;
+      position: absolute;
+      top: 44.5%;
+      right: 0;
+      height: 0.5px;
+      border-width: 0;
+      color: black;
+      background-color: black
+  }
+  /*=========================================Title Table==============*/
+  
+  .service {
+      width: 100%;
+      height: 80px;
+      border: 1px solid #efefef;
+  }
+  
+  .service table th {
+      height: 80px;
+  }
+  
+  .service table .th00 {
+      width: 375px;
+  }
+  
+  .service table .txt01,
+  .service table .txt03 {
+      width: 384px;
+      border-left: 1px solid #efefef;
+  }
+  
+  .service table .txt03 {
+      border-right: 1px solid #efefef;
+  }
+  
+  .service table .txt02 {
+      width: 402px;
+      border-left: 1px solid #efefef;
+  }
+  
+  .service table h3 {
+      margin-top: 2px;
+      letter-spacing: 0.5px;
+      line-height: 1.5;
+  }
+  
+  .icon-social-media-f,
+  .icon-social-media-r {
+      position: absolute;
+      right: 0;
+      top: 97%;
+      display: none;
+  }
+  /*==========================Title TH TXT01*/
+  
+  .service table .txt01 h3,
+  .service table .txt01 p {
+      margin-left: -15px;
+  }
+  /*==========================Title TH TXT02*/
+  
+  .service table .txt02 h3,
+  .service table .txt02 p {
+      margin-left: 1px;
+  }
+  /*==========================Title TH TXT03*/
+  
+  .service table .txt03 h3,
+  .service table .txt03 p {
+      margin-left: -17px;
+  }
+  /*==========================Title TH P*/
+  
+  .service table th p {
+      color: #C2C2C2;
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      margin-top: 5px;
+  }
+  
+  .title-content {
+      margin-top: 111px;
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 122px;
+      width: 44%;
+      margin-left: 28%;
+      line-height: 48px;
+      font-family: 'Cormorant Garamond', serif;
+  }
+  
+  .title-content h4 {
+      letter-spacing: 0.7px
+  }
+  /*====================================================Main -content=============*/
+  /*===============================================Banner-content================*/
+  
+  .content-banner {
+      max-width: 1720px;
+      margin: auto 92px;
+  }
+  
+  .content-banner-top,
+  .content-banner-down {
+      display: flex;
+  }
+  
+  .content-banner-top {
+      justify-content: space-between;
+  }
+  
+  .content-banner-top .ct-bntop-positsion-left,
+  .content-banner-top .ct-bntop-positsion-right,
+  .content-banner-down .ct-bndown-positsion-left,
+  .content-banner-down .ct-bndown-positsion-center {
+      width: 390px;
+  }
+  
+  .content-banner-top .ct-bntop-positsion-center,
+  .content-banner-down .ct-bndown-positsion-right {
+      width: 836px;
+  }
+  
+  .content-banner-top .ct-bntop-positsion-left img {
+      width: 100%;
+  }
+  
+  .content-banner-top .ct-bntop-positsion-left {
+      position: relative;
+      margin-left: 7px;
+  }
+  
+  .content-banner-top .ct-bntop-positsion-left .title-top-left {
+      position: absolute;
+      top: 75%;
+      left: 29%;
+      text-align: center;
+      line-height: 2.3;
+  }
+  
+  .content-banner-top .ct-bntop-positsion-left .title-top-left img {
+      width: 100%;
+  }
+  
+  .content-banner-top .ct-bntop-positsion-left .title-top-left h4 {
+      font-size: 24px;
+      font-family: 'Fira Sans', sans-serif;
+      font-weight: 400;
+      letter-spacing: 1.2px;
+      margin-top: 3px;
+      margin-left: -2px;
+  }
+  
+  .content-banner-top .ct-bntop-positsion-left .title-top-left p {
+      font-size: 24px;
+      font-family: 'Cormorant Garamond', serif;
+      color: sandybrown;
+      margin-top: -7px;
+      letter-spacing: 1px;
+  }
+  
+  .content-banner-top .ct-bntop-positsion-center {
+      position: relative;
+      margin-left: 6px;
+  }
+  
+  .content-banner-top .ct-bntop-positsion-center .text-center {
+      position: absolute;
+      top: 29%;
+      left: 69%;
+  }
+  
+  .content-banner-top .ct-bntop-positsion-center .text-center .txt-1 p {
+      font-family: 'Fira Sans', sans-serif;
+      letter-spacing: 4px;
+      font-size: 17px;
+      margin-left: 23px;
+      margin-top: -20px;
+  }
+  
+  .content-banner-top .ct-bntop-positsion-center .text-center .txt-2 p {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 100px;
+      font-weight: 900;
+      margin-top: 5px;
+      margin-left: 6px;
+  }
+  
+  .content-banner-top .ct-bntop-positsion-center .text-center .txt-3 {
+      margin-top: -4px;
+  }
+  
+  .content-banner-top .ct-bntop-positsion-center .text-center .txt-3 p {
+      font-family: 'Cormorant Garamond', serif;
+      line-height: 62px;
+      font-size: 24px;
+      margin-left: -26px;
+      font-weight: 600;
+  }
+  
+  .content-banner-top .ct-bntop-positsion-center .text-center .txt-4 p {
+      font-family: 'Fira Sans', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      margin-left: 35px;
+      letter-spacing: 3px;
+      margin-top: 46px;
+  }
+  
+  .content-banner-top .ct-bntop-positsion-right {
+      position: relative;
+      margin-right: -8px;
+  }
+  
+  .content-banner-top .ct-bntop-positsion-right .title-top-right h4 {
+      font-family: 'Fira Sans', sans-serif;
+      letter-spacing: 2.2px;
+      margin-left: -2px;
+      margin-top: 2px;
+      font-size: 15px;
+      font-weight: 500;
+  }
+  
+  .content-banner-top .ct-bntop-positsion-right .title-top-right {
+      position: absolute;
+      top: 64%;
+      left: 13%;
+  }
+  
+  .content-banner-top .ct-bntop-positsion-center .text-center .txt-4 a {
+      text-decoration: none;
+  }
+  
+  .content-banner-top .ct-bntop-positsion-right .title-top-right p {
+      color: sandybrown;
+      font-size: 68px;
+      font-family: 'Cormorant Garamond', serif;
+      margin-left: -4px;
+      padding-top: 19px;
+      letter-spacing: 2px;
+      word-spacing: 16px;
+      font-weight: 600;
+  }
+  /*===================   Content banner down     ================================*/
+  
+  .content-banner-down {
+      margin-top: 46px;
+      justify-content: space-between;
+  }
+  
+  .content-banner-down .ct-bndown-positsion-left {
+      margin-left: 7px;
+  }
+  
+  .content-banner-down .ct-bndown-positsion-center {
+      position: relative;
+      margin-right: -10px;
+  }
+  
+  .content-banner-down .ct-bndown-positsion-center .title-down-center {
+      position: absolute;
+      top: 77%;
+      left: 18%;
+      text-align: center;
+      line-height: 1.3;
+      margin-top: 5px;
+  }
+  
+  .content-banner-down .ct-bndown-positsion-center .title-down-center h4 {
+      font-family: 'Fira Sans', sans-serif;
+      letter-spacing: 1.3px;
+      font-size: 24px;
+      font-weight: 400;
+  }
+  
+  .content-banner-down .ct-bndown-positsion-center .title-down-center p {
+      color: sandybrown;
+      font-size: 24px;
+      font-family: 'Cormorant Garamond', serif;
+      padding-top: 17px;
+      letter-spacing: 1px;
+  }
+  
+  .content-banner-down .ct-bndown-positsion-right {
+      position: relative;
+      margin-right: -6px;
+  }
+  
+  .content-banner-down .ct-bndown-positsion-right .title-down-right {
+      position: absolute;
+      top: 26.5%;
+      left: 7%;
+      line-height: 56px;
+  }
+  
+  .content-banner-down .ct-bndown-positsion-right .title-down-right h3 {
+      font-size: 48px;
+      font-family: 'Cormorant Garamond', serif;
+  }
+  
+  .content-banner-down .ct-bndown-positsion-right .title-down-right p {
+      margin-top: 22px;
+      color: #969696;
+      line-height: 24px;
+      font-family: 'Fira Sans', sans-serif;
+      margin-left: 2px;
+      word-spacing: -2px;
+  }
+  /*==================================================Product====================*/
+  
+  .content-products {
+      width: 1200px;
+      margin: auto;
+  }
+  
+  .content-products .featured-products {
+      width: 100%;
+      height: 251px;
+      position: relative;
+      display: flex;
+  }
+  
+  .content-products .featured-products .featured-left h3 {
+      font-size: 56px;
+      font-family: 'Cormorant Garamond', serif;
+      margin-left: 13px;
+      margin-top: 116px;
+  }
+  
+  .content-products .featured-products .featured-right {
+      display: flex;
+      position: absolute;
+      right: 1%;
+      top: 62%;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-family: 'Fira Sans', sans-serif;
+      font-weight: 600;
+      letter-spacing: 2px;
+  }
+  
+  .content-products .featured-products .featured-right span {
+      margin-left: 12px;
+      margin-right: 12px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50px;
+      background-color: #d6ba8d;
+      text-align: center;
+  }
+  
+  .content-products .featured-products .featured-right .icon-prd {
+      background-color: sandybrown;
+      width: 15px;
+      height: 15px;
+      font-size: 12px;
+      text-align: center;
+      border-radius: 25px;
+  }
+  
+  .content-products .featured-products .featured-right .icon-prd .fas {
+      margin-top: 3px;
+      margin-left: 2px;
+  }
+  
+  .content-products .content-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: -19px;
+  }
+  
+  .content-items .content-item {
+      width: 270px;
+      position: relative;
+      margin: 15px;
+  }
+  
+  .content-image-item {
+      height: 320px;
+  }
+  
+  .content-image-item img {
+      width: 100%;
+  }
+  /*==============================================================Slick===========*/
+  
+  .slick-prev,
+  .slick-next {
+      position: absolute;
+      top: 40%;
+  }
+  
+  .slick-prev {
+      left: 0;
+      z-index: 1;
+  }
+  
+  .slick-next {
+      right: 0;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+      color: white;
+  }
+  
+  .slick-arrow {
+      color: black;
+      opacity: 0;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+      font-family: "slick";
+      font-size: 40px;
+      line-height: 1;
+      color: black;
+      opacity: 0.75;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .slick-prev:before {
+      content: "‹";
+  }
+  
+  [dir="rtl"] .slick-prev:before {
+      content: "›";
+  }
+  
+  [dir="rtl"] .slick-next {
+      left: -10px;
+      top: 70px;
+      right: auto;
+  }
+  
+  .slick-next:before {
+      content: "›";
+  }
+  
+  [dir="rtl"] .slick-next:before {
+      content: "‹";
+  }
+  
+  .content-items .content-item:hover .slick-arrow {
+      opacity: 1;
+  }
+  /*===================================================================*/
+  
+  .content-items .content-item .content-item-text {
+      text-align: center;
+  }
+  
+  .content-items .content-item .content-item-text a {
+      text-decoration: none;
+      color: #494949;
+  }
+  
+  .content-items .content-item .content-item-text h4 {
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 14px;
+      margin-top: 17px;
+      margin-bottom: 6px;
+      font-weight: 500;
+      letter-spacing: 0.5px
+  }
+  
+  .content-items .content-item .content-item-text p {
+      font-size: 18px;
+      font-family: 'Cormorant Garamond', serif;
+      color: sandybrown;
+      padding-bottom: 35 px;
+  }
+  
+  .content-items .content-item .content-item-task-action {
+      display: flex;
+      height: 40px;
+      position: absolute;
+      top: 73%;
+  }
+  
+  .content-items .content-item .content-item-task-action button {
+      height: 40px;
+      width: 148px;
+      border: none;
+      background-color: sandybrown;
+      text-decoration: none;
+  }
+  
+  .content-items .content-item .content-item-task-action button a {
+      color: white;
+      font-size: 14px;
+      font-family: 'Fira Sans', sans-serif;
+      text-decoration: none;
+  }
+  
+  .content-items .content-item .content-item-task-action .list-icons a {
+      padding: 11px 11.5px;
+      background-color: #595858;
+      display: inline-block;
+      color: white;
+      border-left: 1px solid white;
+  }
+  
+  .content-items .content-item .content-item-task-action .list-icons .icon-signal,
+  .content-items .content-item .content-item-task-action .list-icons .icon-search {
+      margin-left: -4px;
+  }
+  
+  .content-items .content-item .content-item-task-action {
+      opacity: 0;
+  }
+  /*--------------------*/
+  
+  .content-items .content-item:hover .content-item-task-action {
+      opacity: 1;
+  }
+  
+  .content-blg {
+      background-color: #F9F9F9;
+      position: relative;
+      margin-top: 107px;
+      height: 767px;
+      margin-left: -15px;
+  }
+  
+  .bottom-blog .blog-update {
+      position: absolute;
+      top: -23%;
+      left: 42%;
+  }
+  
+  .content-blg h2 {
+      text-align: center;
+      margin-top: 136px;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 58px;
+      position: absolute;
+      top: -23.2%;
+      left: 43.52%;
+      word-spacing: -7px;
+  }
+  
+  .content-blg .content-blg-post {
+      display: flex;
+      width: 1173px;
+      margin: auto;
+      padding-top: 108px;
+      padding-left: 16px;
+      justify-content: space-between;
+  }
+  
+  .content-blg .content-blg-post .item-center {
+      margin-left: 29px;
+      margin-right: 29px;
+  }
+  
+  .content-blg .content-blg-post .post-text span p {
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 14px;
+      color: #cccccc;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      word-spacing: 3px;
+  }
+  
+  .content-blg .content-blg-post .post-item {
+      background-color: white;
+  }
+  
+  .content-blg .content-blg-post .post-text {
+      margin-top: 27.5px;
+      margin-left: 33.5px;
+  }
+  
+  .content-blg .content-blg-post .post-text .post-text-top {
+      width: 290px;
+  }
+  
+  .content-blg .content-blg-post .post-text .post-text-top .txt-top a {
+      text-decoration: none;
+      color: #333333;
+  }
+  
+  .content-blg .content-blg-post .post-text .post-text-top .txt-top h4 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 24px;
+      margin-top: 22px;
+      letter-spacing: 0.8px;
+      word-spacing: 1.5px;
+      line-height: 32px;
+  }
+  
+  .content-blg .content-blg-post .post-text-down,
+  .post-text-down-left,
+  .post-text-down-right {
+      display: flex;
+  }
+  
+  .content-blg .content-blg-post .post-text-down {
+      width: 305px;
+      margin-top: 50px;
+      border-top: #cccccc 1px solid;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: #626262;
+  }
+  
+  .content-blg .content-blg-post .post-text-down a {
+      font-size: 12px;
+      color: #92c5d9;
+  }
+  
+  .content-blg .content-blg-post .post-text-down p {
+      margin-left: 10px;
+      font-size: 14px;
+  }
+  
+  .content-blg .content-blg-post .post-text-down .post-text-down-right {
+      margin-left: 30px;
+  }
+  
+  .content-blg .row-blg-update {
+      margin-top: 80px;
+  }
+  
+  .content-blg .go-to-blg {
+      width: 139px;
+      height: 16px;
+      background-color: #ffffff;
+      position: relative;
+      margin: auto;
+  }
+  
+  .content-blg .go-to-blg a {
+      text-decoration: none;
+      font-size: 24px;
+      font-family: 'Cormorant Garamond', serif;
+      position: absolute;
+      top: -80%;
+      left: 18%;
+  }
+  
+  .content .brands {
+      background-color: #ffffff;
+  }
+  
+  .content .brands .logo-brands {
+      display: flex;
+      justify-content: center;
+      /* margin: 10px 0px 0px 30px; */
+      width: 1170px;
+      margin: auto;
+      padding-bottom: 4px;
+  }
+  
+  .content .brands .logo-brands .brand-item {
+      width: 165px;
+      margin-top: 12px;
+      margin-left: 2px;
+  }
+  
+  .footer {
+      background-color: #333333;
+      margin-top: -3px;
+      padding-bottom: 80px;
+  }
+  
+  .footer .content-footer {
+      margin: auto;
+      width: 1170px;
+  }
+  
+  .footer .footer-top {
+      height: 187px;
+      display: flex;
+  }
+  
+  .footer .footer-top .logo-footer-top {
+      margin-top: 33px;
+      margin-left: 2px;
+  }
+  
+  .footer .footer-top .nav-menu-footer-top {
+      letter-spacing: 1px;
+      margin: auto;
+      padding: 132px 28px 0px 0px;
+  }
+  
+  .footer .footer-top .nav-menu-footer-top ul {
+      display: flex;
+  }
+  
+  .footer .footer-top .nav-menu-footer-top ul li a {
+      color: #ababab;
+      text-decoration: none;
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin: 18px;
+  }
+  
+  .footer .footer-top .nav-menu-footer-top ul li a:hover:not(.active) {
+      color: #d6ba8d;
+  }
+  
+  .footer .footer-top .footer-top-right {
+      border: 1px solid #ababab;
+      width: 156px;
+      height: 40px;
+      margin-top: 140px;
+  }
+  
+  .footer .footer-top .footer-top-right .box-footer {
+      padding-left: 18px;
+      padding-top: 10px;
+  }
+  
+  .footer .footer-top .footer-top-right .box-footer a {
+      color: #ababab;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 14px;
+      letter-spacing: 2px;
+  }
+  
+  .footer .footer-top .footer-top-right .box-footer .far {
+      margin-left: 8px;
+      color: #d6ba8d;
+      font-size: 15px;
+  }
+  
+  .footer .footer-down {
+      display: flex;
+      position: relative;
+      border-top: 2px solid #2b2b2b;
+      margin-top: 64px;
+      padding-top: 40px;
+  }
+  
+  .footer .footer-down .footer-down-left {
+      line-height: 26px;
+  }
+  
+  .footer .footer-down .footer-down-left p,
+  .footer-down-left a {
+      color: #696969;
+      font-size: 14px;
+      font-family: 'Fira Sans', sans-serif;
+  }
+  
+  .footer .footer-down .footer-down-right {
+      position: absolute;
+      right: -4px;
+      top: 23px;
+  }
+  
+  .footer .footer-down .footer-down-right ul {
+      display: flex;
+  }
+  
+  .footer .footer-down .footer-down-right ul li {
+      margin: 5px;
+      width: 45px;
+      height: 32px;
+      border: 1px solid white;
+      border-radius: 25px;
+      text-align: center;
+      padding-top: 13px;
+  }
+  
+  .footer .footer-down .footer-down-right ul li:hover {
+      background-color: #d6ba8d;
+      border: none;
+  }
+  
+  .footer .footer-down .footer-down-right ul li a {
+      text-decoration: none;
+      color: #ababab;
+  }
+  
+  .footer .footer-down .footer-down-right ul li a:hover {
+      color: black;
+  }
