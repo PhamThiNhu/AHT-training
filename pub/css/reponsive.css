@@ -307,6 +307,7 @@
     }
     .header-menu .fas.fa-times {
         margin-top: -18.5%;
+        margin-right: 2%;
     }
     /* list-item */
     .list-items {
@@ -498,8 +499,8 @@
     }
     .header-menu .fas.fa-times {
         position: absolute;
-        top: 36px;
-        right: 10px;
+        top: 15%;
+        right: 2%;
     }
     .header-menu .btn-search {
         right: 114px;
