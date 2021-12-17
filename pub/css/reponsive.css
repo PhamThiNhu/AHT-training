@@ -84,6 +84,9 @@
     .header-panel .icon-header-panel {
         right: 40px;
     }
+    .header-menu .fas.fa-times {
+        margin-top: -9.5%;
+    }
     /*service*/
     .service {
         margin-top: 0;
@@ -103,6 +106,17 @@
     .slogan .txt h2 {
         letter-spacing: 18px;
         font-size: 40px;
+    }
+    /* list-item */
+    .list-items {
+        top: 12%;
+        right: 11%;
+    }
+    /* button */
+    .slogan .button a {
+        font-size: 10px;
+        top: 32%;
+        left: 7%;
     }
     /*social media*/
     .social-media {
@@ -291,6 +305,13 @@
     .header-menu ul li {
         margin: 17px;
     }
+    .header-menu .fas.fa-times {
+        margin-top: -18.5%;
+    }
+    /* list-item */
+    .list-items {
+        width: 31%;
+    }
     /*Slogan*/
     .slogan {
         top: 38%;
@@ -305,7 +326,7 @@
     }
     .slogan .button {
         top: 58%;
-        padding: 15px 19px 15px 14px;
+        width: 30%;
     }
     .social-media hr {
         top: 59%;
@@ -394,15 +415,14 @@
         width: 155px;
     }
     .content-items .content-item .content-item-task-action {
-        top: 67%;
-        opacity: 1;
+        top: 56%;
     }
     .content-items .content-item .content-item-text {
         margin-top: 45px;
     }
     .content-items .content-item .content-item-task-action button {
         height: 30px;
-        width: 82px;
+        width: 78px;
     }
     .content-items .content-item .content-item-task-action button a {
         font-size: 12px;
@@ -514,20 +534,29 @@
         font-size: 24px;
     }
     .slogan .txt-spring {
-        letter-spacing: 6px;
         line-height: 47px;
         margin-top: 73px;
+    }
+    .slogan .txt-spring h4 {
+        letter-spacing: 8px;
+    }
+    .slogan .button {
+        width: 39%;
+        height: 19%;
+    }
+    .slogan .button a {
+        left: 5%;
     }
     /* .social-media {
             display: none;
         } */
     .icon-social-media-f {
         display: block;
-        top: 45%;
+        top: 28%;
     }
     .show-ic-r {
         display: block;
-        top: 44%;
+        top: 33%;
         right: 33%;
     }
     .remove {
@@ -543,6 +572,10 @@
     }
     .social-media hr {
         top: 15%;
+    }
+    /* service */
+    .service table .txt01 p {
+        margin-left: 4px;
     }
     /* show service */
     .show-social {
@@ -734,7 +767,7 @@
         font-size: 14px;
     }
     .slogan .txt h2 {
-        font-size: 12px;
+        font-size: 18px;
     }
     .slogan .button {
         top: 42%;
@@ -757,7 +790,7 @@
     }
     .show-ic-r {
         display: block;
-        top: 39%;
+        top: 28%;
         right: 21%;
     }
     .service table th p {
@@ -871,10 +904,10 @@
         margin-top: 120px;
     }
     .icon-social-media-f {
-        top: 37%;
+        top: 24%;
     }
     .show-ic-r {
-        top: 39%;
+        top: 27%;
         right: 25%;
     }
     /*content*/

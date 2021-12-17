@@ -7,6 +7,7 @@ $(document).ready(function() {
     //menu-bar
     $('.menu-bar').click(function() {
         $('.header-menu').slideDown("slow");
+        $('.list-items').remove()
     })
     $('.close-menu-top').click(function() {
         $('.header-menu').slideUp("slow");
@@ -91,5 +92,10 @@ $(document).ready(function() {
         $('.icon-social-media-r').removeClass('show-ic-r');
         $('.icon-social-media-f').removeClass('remove');
     })
-
+    $('.content-item').click(function() {
+        $(' .content-item-task-action').fadeIn("slow")
+    })
+    $('.cart').click(function() {
+        $('.list-items').slideToggle("slow")
+    })
 });
