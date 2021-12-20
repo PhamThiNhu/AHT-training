@@ -272,6 +272,16 @@ li {
     margin-top: 10px;
 }
 
+.list-item .text-list a {
+    text-decoration: none;
+    color: #595858;
+}
+
+.list-item .text-list a h4,
+.list-item .text-list p {
+    font-size: 20px;
+}
+
 .list-item .text-list p {
     padding-left: 28px;
 }
@@ -436,10 +446,13 @@ li {
     margin-left: -2px;
 }
 
-.content-banner-top .ct-bntop-positsion-left .title-top-left p,
-.content-banner-top .ct-bntop-positsion-right .title-top-right p,
-.content-banner-down .ct-bndown-positsion-center .title-down-center p,
-.content-items .content-item .content-item-text p {
+.content-banner-top .ct-bntop-positsion-left .title-top-left :hover,
+.content-banner-top .ct-bntop-positsion-center .text-center :hover,
+.content-banner-top .ct-bntop-positsion-center .text-center a p:hover,
+.content-banner-top .ct-bntop-positsion-right .title-top-right :hover,
+.content-banner-down .ct-bndown-positsion-center .title-down-center :hover,
+.content-banner-down .ct-bndown-positsion-right .title-down-right :hover,
+.content-items .content-item .content-item-text :hover {
     color: #d6ba8d;
 }
 
@@ -455,10 +468,18 @@ li {
     margin-left: 6px;
 }
 
+.content-banner-top .ct-bntop-positsion-center .box {
+    position: absolute;
+    top: 17%;
+    left: 61.5%;
+    z-index: 1;
+}
+
 .content-banner-top .ct-bntop-positsion-center .text-center {
     position: absolute;
     top: 29%;
     left: 69%;
+    z-index: 1;
 }
 
 .content-banner-top .ct-bntop-positsion-center .text-center .txt-1 p {
@@ -622,16 +643,21 @@ li {
     margin-top: 116px;
 }
 
-.content-products .featured-products .featured-right {
-    display: flex;
-    position: absolute;
-    right: 1%;
-    top: 62%;
+.content-products .featured-products .featured-right a {
+    color: #7a7a7a;
+    text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 600;
     letter-spacing: 2px;
+}
+
+.content-products .featured-products .featured-right {
+    display: flex;
+    position: absolute;
+    right: 1%;
+    top: 62%;
 }
 
 .content-products .featured-products .featured-right span {
@@ -906,6 +932,11 @@ li {
 .content-blg .content-blg-post .post-text-down a {
     font-size: 12px;
     color: #92c5d9;
+}
+
+.content-blg .content-blg-post .post-text-down .post-text-down-right p,
+.content-blg .content-blg-post .post-text-down .post-text-down-left p {
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .content-blg .content-blg-post .post-text-down p {
