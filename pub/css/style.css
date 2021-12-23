@@ -1,10 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
-    margin: auto;
     box-sizing: border-box;
 }
 
@@ -246,10 +242,10 @@ li {
 .list-items {
     display: none;
     background: #d6ba8d;
-    width: 20%;
+    width: 22%;
     position: absolute;
     z-index: 1;
-    top: 11%;
+    top: 13%;
     right: 10%;
     border-radius: 25px 0px 25px 25px;
 }
@@ -452,7 +448,11 @@ li {
 .content-banner-top .ct-bntop-positsion-right .title-top-right :hover,
 .content-banner-down .ct-bndown-positsion-center .title-down-center :hover,
 .content-banner-down .ct-bndown-positsion-right .title-down-right :hover,
-.content-items .content-item .content-item-text :hover {
+.content-items .content-item .content-item-text :hover,
+.post-text-top span p :hover,
+.txt-top a h4:hover,
+.post-text-down-left p:hover,
+.post-text-down-right p:hover {
     color: #d6ba8d;
 }
 
@@ -657,7 +657,7 @@ li {
     display: flex;
     position: absolute;
     right: 1%;
-    top: 62%;
+    top: 63%;
 }
 
 .content-products .featured-products .featured-right span {
@@ -776,7 +776,7 @@ li {
 .content-items .content-item .content-item-text h4 {
     font-family: 'Fira Sans', sans-serif;
     font-size: 14px;
-    margin-top: 17px;
+    margin-top: 18px;
     margin-bottom: 6px;
     font-weight: 500;
     letter-spacing: 0.5px
@@ -866,10 +866,10 @@ li {
 
 .content-blg .content-blg-post {
     display: flex;
-    width: 1173px;
+    width: 1197px;
     margin: auto;
     padding-top: 108px;
-    padding-left: 16px;
+    padding-left: 22px;
     justify-content: space-between;
 }
 
@@ -967,7 +967,7 @@ li {
     position: absolute;
     top: -80%;
     left: 18%;
-    color: #551A8B;
+    color: #333333;
 }
 
 .content .brands {
@@ -1084,7 +1084,7 @@ li {
 .footer .footer-down .footer-down-right {
     position: absolute;
     right: -4px;
-    top: 23px;
+    top: 22px;
 }
 
 .footer .footer-down .footer-down-right ul {
@@ -1093,12 +1093,12 @@ li {
 
 .footer .footer-down .footer-down-right ul li {
     margin: 5px;
-    width: 45px;
-    height: 32px;
+    width: 47px;
+    height: 48px;
     border: 1px solid white;
     border-radius: 25px;
     text-align: center;
-    padding-top: 13px;
+    padding-top: 14px;
 }
 
 .footer .footer-down .footer-down-right ul li:hover {

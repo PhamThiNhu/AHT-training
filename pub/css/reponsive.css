@@ -3,6 +3,7 @@
             margin-top: -6.5%;
         }
         .list-items {
+            width: 30%;
             top: 15%;
             right: 14%;
         }
@@ -113,19 +114,22 @@
         }
         .slogan .txt h2 {
             letter-spacing: 18px;
-            font-size: 40px;
+            font-size: 68px;
         }
         /* list-item */
         .list-items {
             top: 15%;
             right: 12%;
-            width: 26%;
+            width: 41%;
         }
         /* button */
+        .slogan .button {
+            width: 23.5%;
+        }
         .slogan .button a {
-            font-size: 10px;
+            font-size: 12px;
             top: 32%;
-            left: 7%;
+            left: 9%;
         }
         /*social media*/
         .social-media {
@@ -235,7 +239,7 @@
             width: 100px;
         }
         .content-items .content-item .content-item-task-action .list-icons a {
-            padding: 6px 8.8px;
+            padding: 6px 7.8px;
         }
         /*Content blog*/
         .content-blg {
@@ -318,8 +322,8 @@
         }
         /* list-item */
         .list-items {
-            width: 35%;
-            top: 17%;
+            width: 55%;
+            top: 12%;
         }
         /*Slogan*/
         .slogan {
@@ -331,11 +335,12 @@
         }
         .slogan .txt h2 {
             letter-spacing: 10px;
-            font-size: 32px;
+            font-size: 40px;
         }
         .slogan .button {
             top: 58%;
-            width: 30%;
+            width: 35%;
+            height: 18%;
         }
         .social-media hr {
             top: 59%;
@@ -555,15 +560,12 @@
             letter-spacing: 8px;
         }
         .slogan .button {
-            width: 39%;
+            width: 43%;
             height: 19%;
         }
         .slogan .button a {
             left: 5%;
         }
-        /* .social-media {
-            display: none;
-        } */
         .icon-social-media-f {
             display: block;
             top: 28%;
@@ -588,6 +590,9 @@
             top: 15%;
         }
         /* service */
+        .service {
+            height: 102px;
+        }
         .service table .txt01 p {
             margin-left: 4px;
         }
@@ -1005,9 +1010,6 @@
         /*content-product*/
         .content-products .featured-products .featured-left h3 {
             margin-left: 62px;
-        }
-        .content-products .content-items {
-            margin-left: -12px;
         }
         .content-items .content-item .content-item-text {
             margin-top: 0px;
