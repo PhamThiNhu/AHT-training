@@ -35,6 +35,7 @@ li {
     right: 112px;
     margin: auto;
     font-size: 22px;
+    cursor: pointer;
 }
 
 .blog-top-header .header-panel .logo-header-panel {
@@ -419,6 +420,26 @@ li {
 .content-banner-top .ct-bntop-positsion-left {
     position: relative;
     margin-left: 7px;
+}
+
+.content-banner-top .ct-bntop-positsion-left .title-top-left h4,
+.content-banner-top .ct-bntop-positsion-center .text-center .txt-3 p,
+.content-banner-top .ct-bntop-positsion-center .text-center .txt-4 p,
+.content-banner-down .ct-bndown-positsion-center .title-down-center h4,
+.content-banner-down .ct-bndown-positsion-right .title-down-right h3,
+.content-blg .content-blg-post .post-text-down a,
+.content-banner-top .ct-bntop-positsion-right .title-top-right p {
+    color: #333333;
+}
+
+.content-banner-top .ct-bntop-positsion-left .title-top-left a,
+.content-banner-top .ct-bntop-positsion-center .text-center .txt-3 a,
+.content-banner-top .ct-bntop-positsion-center .text-center .txt-4 a,
+.content-banner-down .ct-bndown-positsion-center .title-down-center a,
+.content-banner-down .ct-bndown-positsion-right .title-down-right a,
+.content-blg .content-blg-post .post-text-down a,
+.content-banner-top .ct-bntop-positsion-right .title-top-right a {
+    text-decoration: none;
 }
 
 .content-banner-top .ct-bntop-positsion-left .title-top-left {
