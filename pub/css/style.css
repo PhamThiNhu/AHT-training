@@ -452,7 +452,8 @@ li {
 .post-text-top span p :hover,
 .txt-top a h4:hover,
 .post-text-down-left p:hover,
-.post-text-down-right p:hover {
+.post-text-down-right p:hover,
+.content-products .featured-products .featured-right a :hover {
     color: #d6ba8d;
 }
 
@@ -977,7 +978,6 @@ li {
 .content .brands .logo-brands {
     display: flex;
     justify-content: center;
-    /* margin: 10px 0px 0px 30px; */
     width: 1170px;
     margin: auto;
     padding-bottom: 4px;
