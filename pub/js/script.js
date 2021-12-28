@@ -26,6 +26,9 @@ $(document).ready(function() {
                 425: {
                     items: 1
                 },
+                640: {
+                    items: 1
+                },
                 768: {
                     items: 2
                 },
@@ -61,6 +64,9 @@ $(document).ready(function() {
                 items: 3
             },
             425: {
+                items: 3
+            },
+            640: {
                 items: 3
             },
             768: {
