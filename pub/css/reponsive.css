@@ -569,6 +569,19 @@
             .content-items .content-item {
                 width: 265px;
             }
+            .content-items .content-item .content-item-task-action button a {
+                font-size: 16px;
+            }
+            .content-items .content-item .content-item-task-action button {
+                height: 39px;
+                width: 136px;
+            }
+            .content-items .content-item .content-item-task-action .list-icons a {
+                padding: 10.1px 12.2px;
+            }
+            .content-items .content-item .content-item-task-action {
+                top: 68%;
+            }
             .content-blg .content-blg-post {
                 padding-left: 78px;
                 padding-top: 71px;
@@ -879,10 +892,10 @@
         
         @media (max-width:414px) {
             .icon-social-media-f {
-                top: 25%;
+                top: 19%;
             }
-            .icon-social-media-r {
-                top: 25%;
+            .show-ic-r {
+                top: 17%;
             }
             .header-menu .fas.fa-times {
                 top: 19%;
@@ -890,6 +903,19 @@
             .list-items {
                 width: 360px;
                 top: 5%;
+            }
+            .content-products .content-items {
+                margin-left: 26px;
+            }
+            .content-items .content-item .content-item-task-action {
+                top: 73%;
+            }
+            .content-items .content-item .content-item-task-action button {
+                height: 36px;
+                width: 154px;
+            }
+            .content-items .content-item .content-item-task-action .list-icons a {
+                padding: 9px 9.3px;
             }
         }
         /*===========================================**=======================================*/
