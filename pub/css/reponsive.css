@@ -938,13 +938,13 @@
 
 @media (max-width:414px) {
     .icon-social-media-f {
-        top: 19%;
+        top: 25%;
     }
     .icon-social-media-r {
-        top: 19%;
+        top: 25%;
     }
     .header-menu .fas.fa-times {
-        top: 12%;
+        top: 19%;
     }
     .list-items {
         width: 360px;
@@ -957,7 +957,16 @@
 
 @media (max-width:360px) {
     .header-menu .fas.fa-times {
+        top: 13%;
+    }
+    .header-menu .fas.fa-times {
         right: 3%;
+    }
+    .icon-social-media-f {
+        top: 20%;
+    }
+    .icon-social-media-r {
+        top: 16%;
     }
 }
 
