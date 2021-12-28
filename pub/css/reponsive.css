@@ -587,7 +587,7 @@
     }
     .show-ic-r {
         display: block;
-        top: 33%;
+        top: 26%;
         right: 33%;
     }
     .remove {
@@ -782,6 +782,25 @@
 }
 
 
+/* =============================================================================================================== */
+
+@media (max-width:414px) {
+    .icon-social-media-f {
+        top: 25%;
+    }
+    .icon-social-media-r {
+        top: 25%;
+    }
+    .header-menu .fas.fa-times {
+        top: 19%;
+    }
+    .list-items {
+        width: 360px;
+        top: 5%;
+    }
+}
+
+
 /*===========================================**=======================================*/
 
 @media (max-width:375px) {
@@ -796,6 +815,8 @@
     }
     .list-items {
         width: 320px;
+        top: 7%;
+        right: 14%;
     }
     .slogan {
         left: 35%;
@@ -815,7 +836,7 @@
         font-size: 10px;
     }
     .social-media {
-        margin-top: 99px;
+        margin-top: 121px;
         padding-right: 11px;
     }
     .social-media a {
@@ -936,28 +957,12 @@
 
 /* ======================================================================================= */
 
-@media (max-width:414px) {
-    .icon-social-media-f {
-        top: 25%;
-    }
-    .icon-social-media-r {
-        top: 25%;
-    }
-    .header-menu .fas.fa-times {
-        top: 19%;
-    }
-    .list-items {
-        width: 360px;
-        top: 5%;
-    }
-}
-
 
 /* =========================================== */
 
 @media (max-width:360px) {
     .header-menu .fas.fa-times {
-        top: 13%;
+        top: 15%;
     }
     .header-menu .fas.fa-times {
         right: 3%;
@@ -966,7 +971,10 @@
         top: 20%;
     }
     .icon-social-media-r {
-        top: 16%;
+        top: 20%;
+    }
+    .list-items {
+        width: 300px;
     }
 }
 
@@ -992,6 +1000,13 @@
     }
     .header-menu .form-search .btn-search {
         right: 61px;
+    }
+    .icon-social-media-f {
+        top: 20%;
+    }
+    .icon-social-media-r {
+        right: 24%;
+        top: 25%;
     }
     @-moz-document url-prefix() {
         .header-menu .btn-search {
